@@ -32,11 +32,11 @@ const LocalSupport = () => {
                 <p>{org.description}</p>
                 <p>
                   <strong>Telepon:</strong>{' '}
-                  <a href={`tel:${org.phone}`}>{org.phone}</a>
+                  <span>{org.phone}</span>
                 </p>
                 <p>
                   <strong>WhatsApp:</strong>{' '}
-                  <a href={org.whatsapp} target="_blank" rel="noopener noreferrer">
+                  <a href="" target="_blank" rel="noopener noreferrer">
                     {org.whatsapp}
                   </a>
                 </p>
