@@ -7,7 +7,7 @@ const LocalSupport = () => {
       name: 'Ministry of Health RI - Quit Line',
       description:
         'A toll-free counseling service offered by the Indonesian Ministry of Health that provides education and support for quitting smoking or vaping.',
-      phone: '0-800-177-6565 (bebas biaya)',
+      phone: '0-800-177-6565 (free call)',
       whatsapp: "0821-2590-0597",
       whatsapp_link: 6282125900597,
       telegram_link: "https://t.me/quitina_bot",
