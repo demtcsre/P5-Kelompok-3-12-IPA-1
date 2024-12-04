@@ -7,8 +7,8 @@ const LocalSupport = () => {
       name: 'Ministry of Health RI - Quit Line',
       description:
         'A toll-free counseling service offered by the Indonesian Ministry of Health that provides education and support for quitting smoking or vaping.',
-      phone: '1500-567',
-      website: 'https://promkes.kemkes.go.id',
+      phone: '0-800-177-6565 (bebas biaya)',
+      whatsapp: '0821-2590-0597 (WhatsApp)',
     },
   ];
 
@@ -35,9 +35,9 @@ const LocalSupport = () => {
                   <a href={`tel:${org.phone}`}>{org.phone}</a>
                 </p>
                 <p>
-                  <strong>Website:</strong>{' '}
-                  <a href={org.website} target="_blank" rel="noopener noreferrer">
-                    {org.website}
+                  <strong>WhatsApp:</strong>{' '}
+                  <a href={org.whatsapp} target="_blank" rel="noopener noreferrer">
+                    {org.whatsapp}
                   </a>
                 </p>
               </div>
