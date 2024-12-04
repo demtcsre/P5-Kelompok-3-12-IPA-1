@@ -5,8 +5,8 @@ const Home = () => {
     <div>
       <section className="hero-section">
         <div className="container hero-container">
-          <h1 className="hero-title">Take the First Step Towards a Smoke-Free Life</h1>
-          <p className="hero-subtitle">Discover resources, alternatives, and support to help you quit smoking and vaping.</p>
+          <h1 className="hero-title">Take the First Step Towards a Nicotine-Free Life</h1>
+          <p className="hero-subtitle">Discover resources, alternatives, and support to help you quit nicotine.</p>
         </div>
       </section>
 
@@ -40,7 +40,7 @@ const Home = () => {
           <div className="testimonials">
             <div className="testimonial">
               <p>"QuitNic gave me the resources I needed to quit vaping. The support and educational tools really made a difference!"</p>
-              <span>- Sarah M.</span>
+              <span>- Evan V.</span>
             </div>
             <div className="testimonial">
               <p>"I never thought I could quit smoking, but with the help of QuitNic, I was able to break free from my addiction and became a better person."</p>

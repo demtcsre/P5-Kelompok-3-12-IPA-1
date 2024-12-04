@@ -13,7 +13,7 @@ const AlternativeProducts = () => {
         "May cause skin irritation in some users.",
         "Not recommended for people with certain medical conditions."
       ],
-      buyLink: "https://example.com/nicotine-patches"
+      buyLink: "https://www.tokopedia.com/search?q=nicotine+patch"
     },
     {
       title: "Non-Nicotine Vapes",
@@ -27,21 +27,21 @@ const AlternativeProducts = () => {
         "May still contain chemicals that irritate the lungs.",
         "Not a long-term solution to quitting."
       ],
-      buyLink: "https://example.com/non-nicotine-vapes"
+      buyLink: "https://www.tokopedia.com/search?st=&q=Non-Nicotine%20Vapes"
     },
     {
-      title: "Nicotine Lozenges",
-      description: "Lozenges dissolve in the mouth, providing a quick dose of nicotine to help curb cravings.",
+      title: "Nicotine Gum",
+      description: "Nicotine gum provides a quick dose of nicotine to help control cravings by chewing the gum, allowing nicotine to be absorbed through the mouth.",
       benefits: [
-        "Portable and easy to use.",
-        "Provides quick relief from cravings.",
-        "Available in different flavors."
+        "Portable and convenient for on-the-go use.",
+        "Helps manage sudden cravings.",
+        "Available in a variety of flavors."
       ],
       cautions: [
-        "May cause nausea or upset stomach.",
-        "Overuse can lead to dependency."
+        "May cause jaw discomfort if overused.",
+        "Not suitable for people with dental issues or braces."
       ],
-      buyLink: "https://example.com/nicotine-lozenges"
+      buyLink: "https://www.tokopedia.com/search?st=&q=nicotine%20gum"
     }
   ];
 
