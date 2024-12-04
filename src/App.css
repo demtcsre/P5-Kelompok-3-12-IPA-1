@@ -1,0 +1,487 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    max-height: 100vh;
+  }
+  
+  h1, h2, h3 {
+    margin: 0.5em 0;
+    color: #0f4b5c;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    margin: 0 2em;
+    list-style-type: disc;
+  }
+  
+  .container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav h1{
+    margin-right: 2em;
+    padding: 0 auto;
+  }
+
+  nav>h1>li{
+    list-style-type: none;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+    color: #001F3F;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6f61;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Home Section */
+  .home-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .home-header h2 {
+    font-size: 2.5rem;
+    color: #0f4b5c;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .content-container{
+    width: 70%;
+    height: auto;
+    margin: 2.5em auto;
+  }
+
+  .content{
+    margin: 2em 0;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    background: url("https://cdn.discordapp.com/attachments/1313724076992495657/1313725412433465384/Chan_Ngerokok.png?ex=67512da2&is=674fdc22&hm=aacc60e26b1baec6eb9a36f6fc8b7a986553c05f70ef4a42457a590eb747f886&") no-repeat center center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .hero-title {
+    color: #EAD8B1;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  /* Features Section */
+  .features-section {
+    padding: 60px 0;
+    background-color: #f4f4f9;
+  }
+
+  .features-title {
+    font-size: 2.5rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .features-description {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+  }
+
+  .features-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .feature-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 30%;
+    text-align: center;
+  }
+
+  .feature-item h3 {
+    font-size: 1.5rem;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+
+  .feature-item p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  /* Testimonials Section */
+  .testimonials-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+
+  .testimonials-title {
+    font-size: 2.5rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .testimonial {
+    background-color: #f4f4f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 60%;
+    text-align: center;
+  }
+
+  .testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .testimonial span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #003366;
+    margin-top: 10px;
+  }
+
+  /* CTA Section */
+  .cta-section {
+    background-color: #003366;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .cta-heading {
+    color: #EAD8B1;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* About Section */
+  .about-section {
+    background-color: #f4f4f9;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 30px;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+
+  .about-list {
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #555;
+  }
+
+  .about-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  /* Container Styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2rem;
+    }
+
+    .about-description, .about-text {
+      font-size: 1rem;
+    }
+
+    .about-list li {
+      font-size: 1rem;
+    }
+  }
+
+  
+  /* General Styling */
+  .alternative-products {
+    padding: 60px 0;
+    background-color: #f4f4f9;
+  }
+
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+
+  .page-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+  /* Product List */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+
+  .product-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+
+  .product-details h3 {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+
+  .product-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .product-details ul li {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+
+  /* Buy Link */
+  .buy-link {
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .buy-link:hover {
+    background-color: #00509e;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .product-card {
+      width: 100%;
+    }
+  }
+
+  /* Educational Content Section */
+  .educational-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .educational-content li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+  }
+  
+  .educational-content li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .educational-content li h3 {
+    font-size: 1.2rem;
+    color: #0f4b5c;
+  }
+  
+  /* Local Support Section */
+  .support-centers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .support-centers li {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .support-centers li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .support-centers li h3 {
+    font-size: 1.5rem;
+    color: #0f4b5c;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e05a49;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #0f4b5c;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #ff6f61;
+  }
+    

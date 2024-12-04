@@ -12,12 +12,7 @@ const Footer = () => {
         fontFamily: "'Inter', sans-serif",
       }}
     >
-      <p>&copy; 2024 Innovate. All rights reserved.</p>
-      <p>
-        <a href="mailto:contact@innovate.com" style={{ color: "#fff", textDecoration: "underline" }}>
-          contact@innovate.com
-        </a>
-      </p>
+      <p>copyright &copy; 2024 Kelompok 3 (12 IPA 1). All rights reserved.</p>
     </footer>
   );
 };
