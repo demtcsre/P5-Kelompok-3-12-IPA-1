@@ -1,15 +1,51 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const LocalSupport = () => {
+  const supportOrganizations = [
+    {
+      name: 'Ministry of Health RI - Quit Line',
+      description:
+        'A toll-free counseling service offered by the Indonesian Ministry of Health that provides education and support for quitting smoking or vaping.',
+      phone: '1500-567',
+      website: 'https://promkes.kemkes.go.id',
+    },
+  ];
 
   return (
-    <div className='content-container'>
-      <h2>Connect to Local Support</h2>
-      <p>Here are local organizations that can help you quit smoking and vaping:</p>
-      <ul>
-        
-      </ul>
-    </div>
+    <>
+      <Helmet>
+        <title>Connect to Local Support - QuitNic</title>
+      </Helmet>
+
+      <section className="local-support-section">
+        <div className="container">
+          <h1 className="section-title">Connect to Local Support</h1>
+          <p className="section-description">
+            Contact trusted organizations and services in Indonesia to get support for quitting smoking and vaping.
+          </p>
+          <br />
+          <div className="support-grid">
+            {supportOrganizations.map((org, index) => (
+              <div key={index} className="support-card">
+                <h3>{org.name}</h3>
+                <p>{org.description}</p>
+                <p>
+                  <strong>Telepon:</strong>{' '}
+                  <a href={`tel:${org.phone}`}>{org.phone}</a>
+                </p>
+                <p>
+                  <strong>Website:</strong>{' '}
+                  <a href={org.website} target="_blank" rel="noopener noreferrer">
+                    {org.website}
+                  </a>
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

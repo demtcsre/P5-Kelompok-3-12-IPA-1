@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Welcome to QuitNic - Your Path to Quit Smoking and Vaping</title>
+      </Helmet>
+
       <section className="hero-section">
         <div className="container hero-container">
           <h1 className="hero-title">Take the First Step Towards a Nicotine-Free Life</h1>
