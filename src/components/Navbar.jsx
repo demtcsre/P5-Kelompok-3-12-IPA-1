@@ -8,10 +8,10 @@ const Navbar = () => {
       <h1><li><Link to="/">QUITNIC</Link></li></h1>
       <h2>|</h2>
       <ul>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/alternative-products">Alternative Products</Link></li>
-        <li><Link to="/educational-content">Educational Content</Link></li>
-        <li><Link to="/local-support">Connect to Local Support</Link></li>
+        <li><Link to="/about">Tentang</Link></li>
+        <li><Link to="/alternative-products">Produk Alternatif</Link></li>
+        <li><Link to="/educational-content">Konten Edukasi</Link></li>
+        <li><Link to="/local-support">Dukungan Lokal</Link></li>
       </ul>
     </nav>
     </>

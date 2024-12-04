@@ -40,7 +40,7 @@ const Home = () => {
 
       <section className="testimonials-section">
         <div className="container">
-          <h2 className="testimonials-title">Success Stories</h2>
+          <h2 className="testimonials-title">Cerita Sukses</h2>
           <div className="testimonials">
             <div className="testimonial">
               <p>"QuitNic memberi saya informasi yang saya butuhkan untuk berhenti vaping. Dukungan dan alat edukasi benar-benar membuat perbedaan!"</p>
@@ -56,7 +56,7 @@ const Home = () => {
 
       <section className="cta-section">
         <div className="container cta-container">
-          <h2 className="cta-heading">Ready to Quit?</h2>
+          <h2 className="cta-heading">Siap Untuk Berhenti?</h2>
           <p className="cta-text">Kendalikan kesehatan Anda hari ini dengan menggunakan QuitNic. Jelajahi sumber daya kami dan mulailah perjalanan Anda menuju kehidupan bebas nikotin.</p>
         </div>
       </section>

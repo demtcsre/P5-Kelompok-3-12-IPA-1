@@ -22,7 +22,7 @@ const LocalSupport = () => {
 
       <section className="local-support-section">
         <div className="container">
-          <h1 className="section-title">Connect to Local Support</h1>
+          <h1 className="section-title">Terhubung dengan Dukungan Lokal</h1>
           <p className="section-description">
             Hubungi organisasi dan layanan tepercaya di Indonesia untuk mendapatkan dukungan berhenti merokok dan vaping.
           </p>
