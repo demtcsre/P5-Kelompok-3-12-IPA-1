@@ -8,7 +8,8 @@ const LocalSupport = () => {
       description:
         'A toll-free counseling service offered by the Indonesian Ministry of Health that provides education and support for quitting smoking or vaping.',
       phone: '0-800-177-6565 (bebas biaya)',
-      whatsapp: '0821-2590-0597 (WhatsApp)',
+      whatsapp: "0821-2590-0597 (WhatsApp)",
+      whatsapp_link: 6282125900597,
     },
   ];
 
@@ -36,7 +37,7 @@ const LocalSupport = () => {
                 </p>
                 <p>
                   <strong>WhatsApp:</strong>{' '}
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a href={`https://wa.me/${org.whatsapp_link}`} target="_blank" rel="noopener noreferrer">
                     {org.whatsapp}
                   </a>
                 </p>
