@@ -29,7 +29,7 @@ const About = () => {
           <br />
 
           <p className="background-description">
-            The Indonesian Doctors Association (IDI) has recommended that the government take more stringent action against vaping, similar to the ban on conventional cigarettes, due to the hazardous composition of e-cigarettes. Studies conducted by the Indonesian Food and Drug Authority (BPOM) in 2015 and 2017 have further supported these concerns, revealing that the negative impacts of vaping outweigh its potential benefits. This highlights the urgent need for alternative solutions for those seeking to quit nicotine products.
+            The Indonesian Doctors Association (IDI) has recommended that the government take more stringent action against vaping, similar to the ban on conventional cigarettes, due to the hazardous composition of e-cigarettes. Studies conducted by the Indonesian Food and Drug Authority (BPOM) in 2015 and 2017 have further supported these concerns, revealing that the negative impacts of vaping outweigh its potential benefits. This highlights the urgent need for alternative solutions for those seeking to quit nicotine products. <a href="https://yankes.kemkes.go.id/view_artikel/2716/rokok-elektrik-gaya-atau-bahaya">(dilansir dari https://yankes.kemkes.go.id/view_artikel/2716/rokok-elektrik-gaya-atau-bahaya)</a>
           </p>
 
           <br />
