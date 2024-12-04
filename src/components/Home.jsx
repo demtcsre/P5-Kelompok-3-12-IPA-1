@@ -17,23 +17,22 @@ const Home = () => {
 
       <section className="features-section">
         <div className="container">
-          <h2 className="features-title">Why QuitNic?</h2>
+          <h2 className="features-title">Kenapa QuitNic?</h2>
           <p className="features-description">
-            QuitNic is designed to guide you through every step of your quitting journey. From providing helpful information
-            on alternative products to offering educational content and connecting you with local support, we are here to help.
+            QuitNic dirancang untuk memandu Anda melalui setiap langkah perjalanan berhenti merokok Anda. Mulai dari memberikan informasi yang bermanfaat tentang produk alternatif hingga menawarkan konten edukasi dan menghubungkan Anda dengan dukungan lokal, kami di sini untuk membantu.
           </p>
           <div className="features-list">
             <div className="feature-item">
-              <h3>Alternatives to Nicotine</h3>
-              <p>Explore products like nicotine patches and non-nicotine vapes that can help ease the transition.</p>
+              <h3>Alternative to Nicotine</h3>
+              <p>Jelajahi produk seperti patch nikotin dan vape non-nikotin yang dapat membantu memudahkan transisi.</p>
             </div>
             <div className="feature-item">
               <h3>Educational Content</h3>
-              <p>Learn about the dangers of nicotine and vaping, and discover effective quitting strategies backed by research.</p>
+              <p>Pelajari tentang bahaya nikotin dan vaping, dan temukan strategi berhenti merokok yang efektif yang didukung oleh penelitian.</p>
             </div>
             <div className="feature-item">
               <h3>Local Support</h3>
-              <p>Connect with local organizations and support networks to stay motivated and get help when needed.</p>
+              <p>Terhubung dengan organisasi lokal dan jaringan pendukung untuk tetap termotivasi dan mendapatkan bantuan saat dibutuhkan.</p>
             </div>
           </div>
         </div>
@@ -44,11 +43,11 @@ const Home = () => {
           <h2 className="testimonials-title">Success Stories</h2>
           <div className="testimonials">
             <div className="testimonial">
-              <p>"QuitNic gave me the resources I needed to quit vaping. The support and educational tools really made a difference!"</p>
+              <p>"QuitNic memberi saya informasi yang saya butuhkan untuk berhenti vaping. Dukungan dan alat edukasi benar-benar membuat perbedaan!"</p>
               <span>- Evan V.</span>
             </div>
             <div className="testimonial">
-              <p>"I never thought I could quit smoking, but with the help of QuitNic, I was able to break free from my addiction and became a better person."</p>
+              <p>"Saya tidak pernah berpikir saya bisa berhenti merokok, tetapi dengan bantuan QuitNic, saya dapat melepaskan diri dari kecanduan dan menjadi orang yang lebih baik."</p>
               <span>- Michael D.</span>
             </div>
           </div>
@@ -58,7 +57,7 @@ const Home = () => {
       <section className="cta-section">
         <div className="container cta-container">
           <h2 className="cta-heading">Ready to Quit?</h2>
-          <p className="cta-text">Take control of your health today by using QuitNic. Explore our resources and start your journey to a nicotine-free life.</p>
+          <p className="cta-text">Kendalikan kesehatan Anda hari ini dengan menggunakan QuitNic. Jelajahi sumber daya kami dan mulailah perjalanan Anda menuju kehidupan bebas nikotin.</p>
         </div>
       </section>
     </div>

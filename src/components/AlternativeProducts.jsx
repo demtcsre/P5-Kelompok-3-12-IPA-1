@@ -5,45 +5,45 @@ const AlternativeProducts = () => {
   const products = [
     {
       title: "Nicotine Patches",
-      description: "Nicotine patches are transdermal patches that release a steady dose of nicotine to help reduce withdrawal symptoms.",
+      description: "Koyo nikotin adalah koyo transdermal yang melepaskan nikotin dalam dosis yang stabil untuk membantu mengurangi gejala putus zat.",
       benefits: [
-        "Provides a consistent dose of nicotine.",
-        "Easy to use and discreet.",
-        "Reduces cravings over time."
+        "Memberikan dosis nikotin yang konsisten.",
+        "Mudah digunakan dan tidak menusuk.",
+        "Mengurangi rasa ingin nikotin dari waktu ke waktu."
       ],
       cautions: [
-        "May cause skin irritation in some users.",
-        "Not recommended for people with certain medical conditions."
+        "Dapat menyebabkan iritasi kulit pada beberapa orang.",
+        "Tidak direkomendasikan untuk orang dengan riwayat penyakit tertentu."
       ],
       image: "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/5/3/48c39da6-bfb5-44ce-9e6e-93ca3dd53062.jpg",
       buyLink: "https://www.tokopedia.com/search?q=nicotine+patch"
     },
     {
       title: "Non-Nicotine Vapes",
-      description: "Non-nicotine vapes use flavored e-liquids without nicotine, offering a safer alternative for those looking to quit.",
+      description: "Vape non-nikotin menggunakan e-liquid beraroma tanpa nikotin, menawarkan alternatif yang lebih aman bagi mereka yang ingin berhenti.",
       benefits: [
-        "Contains no addictive substances.",
-        "Mimics the hand-to-mouth habit of smoking.",
-        "Variety of flavors available."
+        "Tidak mengandung zat adiktif.",
+        "Meniru kebiasaan merokok.",
+        "Berbagai rasa yang tersedia."
       ],
       cautions: [
-        "May still contain chemicals that irritate the lungs.",
-        "Not a long-term solution to quitting."
+        "Mungkin masih mengandung bahan kimia yang mengiritasi paru-paru.",
+        "Bukan solusi jangka panjang untuk berhenti dari nikotin."
       ],
       image: "https://images.tokopedia.net/img/cache/900/hDjmkQ/2024/12/3/0184efaf-2026-4bbe-961f-b67d54b348d9.jpg",
       buyLink: "https://www.tokopedia.com/search?st=&q=Non-Nicotine%20Vapes"
     },
     {
       title: "Nicotine Gum",
-      description: "Nicotine gum provides a quick dose of nicotine to help control cravings by chewing the gum, allowing nicotine to be absorbed through the mouth.",
+      description: "Permen karet nikotin menyediakan nikotin dalam dosis cepat untuk membantu mengendalikan keinginan dengan mengunyah permen karet, sehingga nikotin dapat diserap melalui mulut.",
       benefits: [
-        "Portable and convenient for on-the-go use.",
-        "Helps manage sudden cravings.",
-        "Available in a variety of flavors."
+        "Portabel dan nyaman untuk digunakan saat bepergian.",
+        "Membantu mengatasi keinginan nikotin yang tiba-tiba.",
+        "Tersedia dalam berbagai rasa."
       ],
       cautions: [
-        "May cause jaw discomfort if overused.",
-        "Not suitable for people with dental issues or braces."
+        "Dapat menyebabkan ketidaknyamanan rahang jika digunakan secara berlebihan.",
+        "Tidak cocok untuk orang yang memiliki masalah gigi atau kawat gigi."
       ],
       image: "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/9/5/331f1d70-1b56-4b42-9eff-069928e6046f.jpg", 
       buyLink: "https://www.tokopedia.com/search?st=&q=nicotine%20gum"
@@ -58,9 +58,9 @@ const AlternativeProducts = () => {
       
       <section className="alternative-products">
         <div className="container">
-          <h1 className="page-title">Explore Alternative Products</h1>
+          <h1 className="page-title">Jelajahi Produk Alternatif</h1>
           <p className="page-description">
-            QuitNic offers insights into safer alternatives to help you quit smoking or vaping. Explore these options, learn about their benefits and precautions, and find where to purchase them.
+           QuitNic menawarkan wawasan tentang alternatif yang lebih aman untuk membantu Anda berhenti merokok atau vaping. Jelajahi opsi-opsi ini, pelajari tentang manfaat dan tindakan pencegahannya, dan temukan tempat untuk membelinya.
           </p>
 
           <div className="product-list">
@@ -69,13 +69,13 @@ const AlternativeProducts = () => {
                 <h2 className="product-title">{product.title}</h2>
                 <p className="product-description">{product.description}</p>
                 <div className="product-details">
-                  <h3>Benefits:</h3>
+                  <h3>Manfaat:</h3>
                   <ul>
                     {product.benefits.map((benefit, i) => (
                       <li key={i}>{benefit}</li>
                     ))}
                   </ul>
-                  <h3>Cautions:</h3>
+                  <h3>Peringatan:</h3>
                   <ul>
                     {product.cautions.map((caution, i) => (
                       <li key={i}>{caution}</li>
@@ -93,7 +93,7 @@ const AlternativeProducts = () => {
                   rel="noopener noreferrer"
                   className="buy-link"
                 >
-                  Buy Now
+                  Beli Sekarang
                 </a>
               </div>
             ))}

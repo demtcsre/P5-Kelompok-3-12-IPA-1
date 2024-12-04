@@ -10,11 +10,9 @@ const EducationalContent = () => {
       <section className="educational-content">
         <div className="container">
           <header className="intro-section">
-            <h1 className="page-title">Educational Content</h1>
+            <h1 className="page-title">Konten Edukasi</h1>
             <p className="intro-text">
-              Take the first step towards a healthier life. Learn the facts, 
-              uncover the myths, and discover effective methods to quit nicotine 
-              for good. Knowledge is the most powerful tool for change.
+              Ambil langkah pertama menuju hidup yang lebih sehat. Pelajari faktanya, mengungkap mitos, dan temukan metode efektif untuk berhenti merokok untuk selamanya. Pengetahuan adalah alat yang paling ampuh untuk perubahan.
             </p>
           </header>
 
@@ -24,86 +22,76 @@ const EducationalContent = () => {
               <div className="content-card">
                 <h3>Nicotine Replacement Therapy (NRT)</h3>
                 <p>
-                  Products like patches and gum reduce withdrawal symptoms while 
-                  you work on breaking the habit.
+                  Produk seperti koyo dan permen karet mengurangi gejala putus zat sementara Anda berusaha menghentikan kebiasaan tersebut.
                 </p>
               </div>
               <div className="content-card">
                 <h3>Behavioral Therapy</h3>
                 <p>
-                  Work with a counselor to identify triggers and develop strategies 
-                  to stay smoke-free.
+                  Bekerjasama dengan konselor untuk mengidentifikasi pemicu dan mengembangkan strategi untuk tetap bebas dari asap rokok.
                 </p>
               </div>
               <div className="content-card">
                 <h3>Mobile Apps</h3>
                 <p>
-                  Track your progress, set goals, and connect with supportive 
-                  communities using quit-smoking apps like "QuitNow!" and "Smoke Free."
+                  Lacak kemajuan Anda, tetapkan tujuan, dan terhubung dengan komunitas yang mendukung komunitas dengan menggunakan aplikasi berhenti merokok seperti “QuitNow!” dan “Smoke Free.”
                 </p>
               </div>
               <div className="content-card">
                 <h3>Support Groups</h3>
                 <p>
-                  Share experiences, gain encouragement, and build accountability 
-                  by joining local or online support groups.
+                  Berbagi pengalaman, mendapatkan dorongan, dan membangun akuntabilitas dengan bergabung dengan kelompok dukungan lokal atau online.
                 </p>
               </div>
             </div>
           </section>
 
           <section className="content-section dangers-vaping">
-            <h2 className="section-title">Dangers of Vaping</h2>
+            <h2 className="section-title">Bahaya Vaping</h2>
             <div className="content-grid">
               <div className="content-card">
-                <h3>Health Risks</h3>
+                <h3>Resiko Kesehatan</h3>
                 <p>
-                  Vaping exposes users to harmful chemicals, including formaldehyde 
-                  and heavy metals, leading to potential lung and cardiovascular damage.
+                  Vaping membuat pengguna terpapar bahan kimia berbahaya, termasuk formaldehida dan logam berat, yang menyebabkan potensi kerusakan paru-paru dan kardiovaskular.
                 </p>
               </div>
               <div className="content-card">
-                <h3>Addiction</h3>
+                <h3>Adiksi</h3>
                 <p>
-                  Many e-liquids contain nicotine, which is highly addictive, 
-                  especially for teens and young adults.
+                  Banyak e-liquid yang mengandung nikotin, yang sangat adiktif, terutama bagi remaja dan dewasa muda.
                 </p>
               </div>
               <div className="content-card">
-                <h3>Unregulated Ingredients</h3>
+                <h3>Bahan yang Tidak Diregulasi</h3>
                 <p>
-                  Some vapes contain unregulated substances, increasing risks of unknown 
-                  long-term health effects.
+                  Beberapa vape mengandung zat yang tidak diatur, meningkatkan risiko yang tidak diketahui efek kesehatan jangka panjang.
                 </p>
               </div>
             </div>
           </section>
 
           <section className="content-section myth-busting">
-            <h2 className="section-title">Myth-Busting: Is Vaping Safer?</h2>
+            <h2 className="section-title">Myth-Busting: Apakah Vaping Lebih Aman?</h2>
             <ul className="myth-list">
               <li>
-                <strong>Myth:</strong> Vaping is just flavored water vapor. <br />
-                <strong>Fact:</strong> It's aerosol containing harmful chemicals 
-                like acrolein and heavy metals.
+                <strong>Myth:</strong> Vaping hanyalah uap air dengan rasa atau aroma. <br />
+                <strong>Fact:</strong> Ini adalah aerosol yang mengandung bahan kimia berbahaya seperti akrolein dan logam berat.
               </li>
               <li>
-                <strong>Myth:</strong> Vaping helps you quit smoking. <br />
-                <strong>Fact:</strong> Many end up using both cigarettes and vapes, 
-                increasing nicotine dependency.
+                <strong>Myth:</strong> Vaping membantu Anda berhenti merokok. <br />
+                <strong>Fact:</strong> Banyak yang akhirnya menggunakan rokok dan vape, meningkatkan ketergantungan nikotin.
               </li>
               <li>
-                <strong>Myth:</strong> Nicotine isn't that harmful. <br />
-                <strong>Fact:</strong> Nicotine affects brain development and 
-                increases risks of addiction.
+                <strong>Myth:</strong> Nikotin tidak terlalu berbahaya. <br />
+                <strong>Fact:</strong> Nikotin mempengaruhi perkembangan otak dan meningkatkan risiko kecanduan.
               </li>
             </ul>
           </section>
 
           <section className="quiz-section">
-            <h2 className="section-title">Interactive Quizzes</h2>
+            <h2 className="section-title">Kuis Interaktif</h2>
             <p>
-              This Page is on Progress, Please Wait ^_^
+              Halaman Ini Sedang Dalam Progress, Harap Bersabar ^_^
             </p>
           </section>
         </div>
