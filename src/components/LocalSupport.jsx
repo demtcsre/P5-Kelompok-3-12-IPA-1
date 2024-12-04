@@ -10,6 +10,7 @@ const LocalSupport = () => {
       phone: '0-800-177-6565 (bebas biaya)',
       whatsapp: "0821-2590-0597 (WhatsApp)",
       whatsapp_link: 6282125900597,
+      telegram_link: "https://t.me/quitina_bot",
     },
   ];
 
@@ -39,6 +40,12 @@ const LocalSupport = () => {
                   <strong>WhatsApp:</strong>{' '}
                   <a href={`https://wa.me/${org.whatsapp_link}`} target="_blank" rel="noopener noreferrer">
                     {org.whatsapp}
+                  </a>
+                </p>
+                <p>
+                  <strong>Telegram:</strong>{' '}
+                  <a href={org.telegram_link} target="_blank" rel="noopener noreferrer">
+                    @quitina_bot
                   </a>
                 </p>
               </div>
