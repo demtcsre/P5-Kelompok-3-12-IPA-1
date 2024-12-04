@@ -10,12 +10,12 @@ const About = () => {
       
       <section className="about-section">
         <div className="container">
-          <h2 className="about-title">About QuitNic</h2>
+          <h2 className="about-title">Tentang QuitNic</h2>
           <p className="about-description">
             QuitNic didedikasikan untuk mendukung individu yang berjuang melawan kecanduan nikotin, khususnya melalui rokok dan vape. Misi kami adalah memberdayakan orang-orang dengan alat, sumber daya, dan pengetahuan untuk membantu mereka melepaskan diri dari ketergantungan nikotin dan menjalani kehidupan yang lebih sehat dan bebas nikotin.
           </p>
 
-          <h2 className="subheading">Background Issue</h2>
+          <h2 className="subheading">Latar Belakang Masalah</h2>
           <p className="background-description">
             Merokok dan vaping telah menjadi masalah yang meluas di Indonesia, dengan semakin banyaknya individu, terutama kaum muda, yang mulai menggunakan produk nikotin pada usia dini. Terlepas dari peraturan pemerintah dan kampanye kesehatan, kecanduan nikotin terus menyebar karena aksesibilitas dan daya tarik rokok dan rokok elektrik. Vaping, yang sering dipasarkan sebagai alternatif yang lebih aman, juga mengalami lonjakan popularitas, terutama di kalangan remaja dan dewasa muda.
           </p>
